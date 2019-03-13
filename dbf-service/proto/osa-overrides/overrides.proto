@@ -18,5 +18,7 @@ message DefaultsFile {
 
 message OSADefaults {
   bool valid = 1;
-  repeated DefaultsFile defailts = 2;
+  DefaultsFile defaultsfile = 2;
+  repeated DefaultsFile defailts = 3;
+
 }
